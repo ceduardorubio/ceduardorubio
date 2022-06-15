@@ -1,30 +1,46 @@
-<svg fill="none" viewBox="0 0 120 120" width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 1440 900" width="1440" height="900" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-          @keyframes bounce {
-            0%   { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-            3%   { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-            5%   { transform: scale(1.1,  .9)  translateY(5px)   skew(0deg,  0deg); }
-            12%  { transform: scale(.9,   1.1) translateY(-70px) skew(25deg, 5deg); }
-            13%  { transform: scale(.9,   1.1) translateY(-70px) skew(25deg, 5deg); }
-            20%  { transform: scale(1.05, .95) translateY(0)     skew(0deg,  0deg); }
-            22%  { transform: scale(1,    1)   translateY(-7px)  skew(0deg,  0deg); }
-            27%  { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-            100% { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-          }
-          h1 {
-            width: 120px;
-            line-height: 20px;
-            padding-top: 70px;
-            text-align: center;
-            font: 400 16px/1.5 Helvetica ,Arial ,sans-serif;
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+
+          #main {
+            font: 400 14px 'Roboto',sans-serif;
             color: #FFFFFF;
-            transform-origin: bottom;
-            animation: 4s cubic-bezier(.5, 0, .5, 1.2) 1s infinite bounce;
+            width: 100%;
+            height: 100%;
+            background-color: #2a2a2a;
+
+          }
+          h1{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+          }
+          h2{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
+            color: springgreen;
           }
       </style>
-      <h1>CVX CLOUD</h1>
+
+      <div id="main">
+        <h1>Welcome to </h1>
+        <h1>ceduardorubio profile</h1>
+        <h2>Developer Javascript, Nodejs, Angular</h2>
+        <h2></h2>
+        
+      </div>
     </div>
   </foreignObject>
 </svg>
